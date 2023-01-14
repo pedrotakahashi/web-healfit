@@ -1,16 +1,12 @@
-import React from 'react';
-import Body from './Componets/Body';
-import Footer from './Componets/Footer';
-import Header from './Componets/Header';
-const Main = () => {
+import HomePage from "./Pages/HomePage";
 
-return(
-  <>
-    <Header/>
-    <Body />
-    <Footer />
-  </>
-)
-}
 
-export default Main;
+export const App = () => {
+  return (
+    <>
+      <div className="App">
+        <HomePage />
+      </div>
+    </>
+  );
+};

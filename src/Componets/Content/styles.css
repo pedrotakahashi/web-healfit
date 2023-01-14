@@ -1,0 +1,29 @@
+.content-page {
+  padding-top: 5vh;
+  display: block;
+  justify-content: center;
+}
+
+.button-form{
+  display: flex;
+  justify-content: center;
+}
+
+.icon-search{
+  margin-top: 10vh;
+  height: 50px;
+  color: rgb(50, 81, 221);
+}
+
+@media (min-width: 255px) and (max-width: 767px){ 
+  .btn-mobile{
+    width: 100%;
+  }
+  .btn-mobile.btn-mobile:last-child{
+    margin-top: 5%;
+  }
+
+  .main-container{
+    height: 100%;
+  }
+ }

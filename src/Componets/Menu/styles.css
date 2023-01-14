@@ -1,0 +1,12 @@
+.menu-button{
+    transition: 1;
+    border-radius: 15px;
+    color: #000!important;
+}
+
+.menu-button:hover{
+    border-radius: 15px;
+    background-color: pink;
+    transition: 1s;
+}
+
