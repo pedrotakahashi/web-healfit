@@ -11,7 +11,7 @@ export const PlanCardComponent = () =>{
       <Row>
       <Card.Title id="planos" style={{  textAlign:'center' }}>PLANO TRIMESTRAL</Card.Title>
         <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
                 <Card.Title style={{  textAlign:'center' }}>PLANO ANUAL</Card.Title>
                 <Card.Text>
@@ -22,7 +22,7 @@ export const PlanCardComponent = () =>{
             </Card>
         </Col>
         <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
               <Card.Title style={{  textAlign:'center' }}>PLANO TRIMESTRAL</Card.Title>
                 <Card.Text>
@@ -33,7 +33,7 @@ export const PlanCardComponent = () =>{
             </Card>
         </Col>
         <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
               <Card.Title style={{  textAlign:'center' }}>PLANO SEMESTRAL</Card.Title>
                 <Card.Text>
@@ -44,7 +44,7 @@ export const PlanCardComponent = () =>{
             </Card>
         </Col>
         <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
               <Card.Title style={{  textAlign:'center' }}>PLANO MENSAL</Card.Title>
                 <Card.Text>
@@ -67,7 +67,7 @@ export const ModalityCardComponent = () =>{
       <Row>
       <Card.Title id="modalidades" style={{  textAlign:'center' }}>MODALIDADES</Card.Title>
         <Col md={4}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
               <Card.Title style={{  textAlign:'center' }}>MUSCULAÇÃO</Card.Title>
                 <Card.Text>
@@ -78,7 +78,7 @@ export const ModalityCardComponent = () =>{
             </Card>
         </Col>
         <Col md={4}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
               <Card.Title style={{  textAlign:'center' }}>JIU JITSU</Card.Title>
                 <Card.Text>
@@ -89,7 +89,7 @@ export const ModalityCardComponent = () =>{
             </Card>
         </Col>
         <Col md={4}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className="mobile-cards">
               <Card.Body>
               <Card.Title style={{  textAlign:'center' }}>FUNCIONAL</Card.Title>
                 <Card.Text>

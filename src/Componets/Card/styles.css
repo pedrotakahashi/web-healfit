@@ -1,0 +1,6 @@
+@media (min-width: 255px) and (max-width: 767px){ 
+    .mobile-cards{
+        margin: 0 auto !important;
+        margin-bottom: 5px !important;
+    }
+   }
